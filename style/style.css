@@ -1,0 +1,102 @@
+@charset "utf-8";
+*{
+   padding-bottom: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+A{
+   border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+IMG{
+   border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+A{
+   color: #000;
+    text-decoration: none;
+}
+A:hover{
+   color: #f60 !important;
+    text-decoration: none;
+}
+#jump{
+   z-index: 400;
+    position: fixed;
+    width: 40px;
+    top: 300px;
+    right: 30px;
+}
+#jump LI{
+   height: 50px;
+    overflow: hidden;
+}
+#share{
+   width: 40px;
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#reply{
+   width: 40px;
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#sina{
+   width: 40px;
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#ceping{
+   width: 40px;
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#weixin{
+   width: 40px;
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#top{
+   background: url(/images/images/top.png) no-repeat;
+}
+#sina{
+   background: url(/images/images/sina.png) no-repeat;
+}
+#weixin{
+   background: url(/images/images/weixin.png) no-repeat;
+}
+#top:hover{
+   background: url(/images/images/toped.png) no-repeat;
+}
+#sina:hover{
+   background: url(/images/images/sinad.png) no-repeat;
+}
+#weixin:hover{
+   background: url(/images/images/weixind.png) no-repeat;
+}
+#EWM{
+   position: absolute;
+    display: none;
+    left: -150px;
+}
+#EWM IMG{
+   width: 150px;
+    height: 150px;
+}
